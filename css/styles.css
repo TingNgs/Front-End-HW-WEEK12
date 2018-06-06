@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Book Antiqua;
+}
+html {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1280px) {
+    html{ width: 1280px;}
+    #logo_img{margin-left:125px;}
+    .nav-item{width: 152px;}
+    .nav-item a { padding:auto 0px;}
+    #new_product .row{margin: 0 80px;}
+    #content .row {margin: 0 133px;}
+    .content_textBox .content_textBox2{ margin-left: 30px;}
+    .reverse_row .content_textBox .content_textBox2{ margin-left: 0px;}
+    .reverse_row img{margin-left: 30px;}
+}
+@media only screen and (max-width: 1280px) {
+    html{ width: 100%;}
+    #logo_img{margin-left: 20%;}
+    .nav-item{width: 100%;}
+    #new_product .row{margin: 0 80px;}
+    #content .row {margin: 0 30px;}
+    #content .row img{width: 90%}
+}
+@media only screen and (max-width: 991px) {
+    #content .row img{ margin: 0 5%;margin-bottom: 15px;}
+    .content_textBox .content_textBox2{ width: 90%;margin: 0 auto;}
+    #contact .col-lg-5{
+        margin-top: 20px; margin-left: -15px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    html{ width: 100%;}
+    #logo_img{margin-left: 0;}
+    #new_product .row{margin: 0 auto;}
+    #content .row img{width: 100%; margin: 0;margin-bottom: 15px;}
+    header nav{float: right;}
+}
+@media only screen and (max-width: 320px) {
+    html{ width: 100%;}
+    #new_product img{width: 90%;}
+}
+header{
+    background-color:#333333;
+    height: 204px;
+    
+}
+#logo_img{margin-top: 90px;}
+header nav{
+    margin-top: 90px;
+    z-index:1;
+}
+header ul{
+    width: 100%;
+}
+.nav-item{
+    height: 62px;
+    font-size: 20px;
+    background-color: #DDDDDD;
+    text-align: center;
+    border: 1px #333333 solid;
+}
+
+.nav-item a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-top: 5px;
+    
+}
+.nav-item:hover {
+    background-color: #EEEEEE;
+}
+.nav-item:active {
+    background-color: #CCCCCC;
+}
+
+#top_banner {
+    background: url(../img/img_main_freeStrap.png) center;
+    background-size: cover;
+    height: 497px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+.banner h1{
+    font-size: 60px;
+    font-weight: lighter;
+    text-shadow: #000000;
+    z-index:0;
+}
+.banner h2{
+    font-size: 32px;
+    font-weight: lighter;
+    text-shadow: #000000;
+}
+.href_col{
+    margin-top: 15px;
+}
+.banner a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: rgba(00,00,00,70%);
+    border: none;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.banner a:hover{
+    background-color: rgba(44,44,44,70%);
+}
+.banner a:active{
+    background-color: rgba(22,22,22,70%);
+}
+#new_product h1{
+    padding: 20px;
+}
+#new_product h2{
+    padding-bottom: 30px;
+}
+
+#content{
+    background-color: #eeeeee;
+    padding-bottom: 50px;
+}
+#content .row{
+    padding-top: 50px;
+}
+.content_textBox{
+    display: flex;
+    align-items: center;
+}
+.content_textBox h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.content_textBox p{
+    font-size: 26px;
+}
+#content .row.reverse_row{flex-direction: row-reverse;}
+#bottom_banner {
+    margin: 25px 0;
+    background: url(../img/img_main_bespokePerfection.png) center;
+    background-size: cover;
+    height: 491px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#bottom_banner row a{
+    margin-left: 100px;
+}
+
+#contact{
+    background-color: #6FA8DC;
+    padding-bottom: 55px;
+}
+#contact .row{
+    width: 80%;
+    margin:0 auto;
+}
+#contact .row .row{
+    background-color: #9FC5F8;
+    height: 100%;
+    width: 100%;
+    margin: 30px auto;
+}
+#contact .row .row .col{
+    height: 64px;
+}
+
+#contact .row .row{
+    display: flex;
+    align-items: center;
+}
+#contact .col-12 a{
+    font-size: 16px;
+    color: #000000;
+    font-weight: lighter;
+    background-color: #DDDDDD;
+    border: none;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#contact .col-12 a:hover {
+    background-color: #999999;
+}
+
+#contact .col-12 a:active{
+    background-color: #666666;
+}
+
+footer{
+    background-color: #666666;
+    padding: 30px 0;
+    color: #cccccc;
+}
+footer a{
+    color: #999999;
+}
+footer .top_row{
+   width: 80%;
+   margin: 0px auto;
+}
+footer img{
+    height: 24px;
+}
+footer .top_row .col-lg{
+    margin-top: 15px;
+ }
